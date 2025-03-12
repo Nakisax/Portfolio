@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: wheat;
+}
+
+.main{
+    color: blueviolet;
+    font-size: 60px;
+    background-color: red;
+    text-align: center;
+    width: 20%;
+    height: 0%;
+    margin-top: 5px;
+    margin: auto;
+    border: 3px solid red;
+    border-color: blueviolet;
+}
+
+.main:hover{
+
+    color: darkblue;
+    background-color: blue;
+    border: 3px solid blue;
+    transition: 5ms;
+}
+
+.personal-info{
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+.skills{
+    font-size: 18px;
+    width: 50px;
+    text-align:start;
+    margin: 0 auto;
+    padding-right: 220px;
+}
+
+.contact-info{
+ 
+    width: auto;
+    height:144px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 2%;
+    background-color: darkblue;
+    font-size: 10px;
+    
+} 
+a {
+    font-size: 16px;
+}
+.contact-info a{
+    color: white;
+    text-decoration:none;
+}
